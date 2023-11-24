@@ -1,0 +1,600 @@
+@charset "UTF-8";
+/* 
+Theme Name: 仕事ノアル暮らし
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #555555;
+  font-size: 1rem;
+  font-family: "Noto Sans", "Noto Sans JP", sans-serif;
+  background-color: #FDFBF2;
+}
+
+a {
+  color: #555555;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1080px;
+  padding: 0px 16px;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 960px;
+  padding: 0px 16px;
+  margin: 0 auto;
+}
+
+.content2 {
+  max-width: 1080px;
+  padding: 0px 16px;
+  margin: 0 auto;
+}
+
+.site-title a {
+  display: block;
+  font-size: 3.125rem;
+}
+
+.sec-title {
+  font-size: 2.375rem;
+  text-align: center;
+  color: #AA9C69;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+}
+header .h-left {
+  margin-top: 20px;
+  display: flex;
+}
+header .h-left img {
+  width: 50px;
+  height: 50px;
+}
+header nav img {
+  width: 30px;
+  height: 25px;
+}
+header nav ul {
+  display: flex;
+}
+header nav li {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-right: 40px;
+}
+header nav li:last-child {
+  margin-right: 0px;
+}
+header nav .mail {
+  background: #AA9C69;
+  width: 80px;
+  height: 90px;
+  padding-top: 27px;
+  font-size: 0.688rem;
+  color: #fff;
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+header nav .mail img {
+  margin-left: 25px;
+}
+header nav .mail p {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  padding-left: 7px;
+  padding-top: 5px;
+}
+
+/*-------------------------------------------
+Mainvisual
+-------------------------------------------*/
+.main-s img {
+  padding: 5px;
+}
+
+/*-------------------------------------------
+Sidebar
+-------------------------------------------*/
+.s-left {
+  width: 80px;
+  background-color: #AA9C69;
+  display: flex;
+  gap: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: rotate(90deg);
+  position: fixed;
+  top: 90px;
+}
+.s-left img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  transform: rotate(-90deg);
+}
+.s-left p {
+  margin-right: 40px;
+}
+
+#sidebar2 .s-right {
+  display: flex;
+  transform: rotate(90deg);
+}
+#sidebar2 .s-right p {
+  transform: rotate(-90deg);
+}
+
+/*-------------------------------------------
+Life
+-------------------------------------------*/
+#life {
+  /*-------------------------------------------
+  サークル
+  -------------------------------------------*/
+}
+#life .flex-item {
+  display: flex;
+}
+#life .l-item {
+  position: relative;
+  margin-left: 400px;
+}
+#life .life-t {
+  z-index: 10;
+  height: 820px;
+}
+#life .gold {
+  color: #AA9C69;
+  font-weight: bold;
+  font-size: 2.625rem;
+  margin-bottom: 60px;
+}
+#life .gold-s {
+  color: #AA9C69;
+  font-size: 1rem;
+  font-weight: bold;
+}
+#life .life-t {
+  max-width: 360px;
+  padding: 15px 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 205px;
+  left: 0;
+  right: 0;
+}
+#life .circle {
+  z-index: 30;
+  position: absolute;
+}
+#life .circle img {
+  display: block;
+}
+#life .life1 {
+  margin-left: 220px;
+  width: 250px;
+  margin-top: 100px;
+}
+#life .life2 {
+  width: 200px;
+  margin-left: 80px;
+  margin-top: -30px;
+}
+#life .life3 {
+  width: 280px;
+  margin-left: 305px;
+  margin-top: -120px;
+}
+
+.brown {
+  position: absolute;
+  top: 1080px;
+}
+
+.plant ul {
+  display: flex;
+  justify-content: space-between;
+}
+.plant .p-title {
+  position: relative;
+  margin-bottom: 20px;
+}
+.plant .p-title .green1 {
+  top: 140px;
+  left: 11%;
+  text-align: center;
+  position: absolute;
+  color: #8FC08F;
+  font-size: 1.375rem;
+  font-weight: bold;
+}
+.plant .p-title .green2 {
+  top: 140px;
+  left: 20%;
+  text-align: center;
+  position: absolute;
+  color: #8FC08F;
+  font-size: 1.375rem;
+  font-weight: bold;
+}
+.plant .p-title .green3 {
+  top: 120px;
+  left: 6%;
+  text-align: center;
+  position: absolute;
+  color: #8FC08F;
+  font-size: 1.375rem;
+  font-weight: bold;
+}
+.plant .text {
+  width: 250px;
+  height: 160px;
+}
+
+/*-------------------------------------------
+  about
+-------------------------------------------*/
+#about img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
+#about h2 {
+  margin-bottom: 60px;
+}
+#about ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  gap: 77px;
+}
+#about ul li {
+  width: 45%;
+}
+#about .about-i {
+  position: relative;
+}
+#about .about-i img {
+  width: 100%;
+  border-radius: 0px 40px 0px 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+#about .about-i p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 2.25rem;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#news {
+  background-color: #E0D9C1;
+  padding-top: 27px;
+}
+#news .white {
+  background-color: #FFFFFF;
+}
+
+#news h2 {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+}
+
+#news dt {
+  width: 20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+
+#news dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+
+/*-------------------------------------------
+Active
+-------------------------------------------*/
+#active {
+  width: 100%;
+}
+#active .dot {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
+#active h2 {
+  margin-bottom: 80px;
+}
+#active.slick-area {
+  visibility: hidden;
+}
+#active.slick-area img {
+  width: 200px;
+  height: 200px;
+}
+#active.slick-area.slick-initialized {
+  visibility: visible;
+}
+#active .slick-area img {
+  height: 200px;
+  width: 200px;
+}
+#active .slick-area .slick-prev,
+#active .slick-area .slick-next {
+  z-index: 100;
+}
+#active .slick-area .slick-prev {
+  left: 20px;
+}
+#active .slick-area .slick-next {
+  right: 20px;
+}
+#active .slick-area .slick-prev:before, #active .slick-area .slick-next:before {
+  color: rgba(112, 112, 112, 0.7960784314); /*黒にする*/
+  opacity: 1; /*デフォルトは.75が指定されている*/
+}
+
+/*-------------------------------------------
+sns
+-------------------------------------------*/
+#sns p {
+  text-align: center;
+  color: #AA9C69;
+  font-size: 1.5rem;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+#sns .icon {
+  display: flex;
+  gap: 41px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+#contact {
+  background-color: #AA9C69;
+  height: 294px;
+}
+#contact .contact {
+  display: flex;
+}
+#contact .c-left {
+  margin-top: 80px;
+  width: 35%;
+  height: 90px;
+}
+#contact .c-left h3 {
+  font-size: 2.375rem;
+  color: #FFFFFF;
+}
+#contact .c-right {
+  width: 65%;
+  max-width: 640px;
+}
+#contact .c-right .tel {
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  height: 80px;
+  display: flex;
+}
+#contact .c-right .tel .tel-left {
+  width: 60%;
+}
+#contact .c-right .tel .tel-left img {
+  color: #fff;
+}
+#contact .c-right .tel .tel-left .number {
+  font-size: 3rem;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+#contact .c-right .tel .tel-right {
+  width: 40%;
+  color: #FFFFFF;
+}
+#contact .c-right .c-button {
+  display: flex;
+  gap: 40px;
+}
+#contact .c-right .btn-w1, #contact .c-right .btn-w2 {
+  margin-top: 180px;
+  height: 50px;
+  color: #AA9C69;
+  background-color: #fff;
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: 1rem;
+  display: block;
+  padding: 13px;
+  text-align: center;
+  transition: 0.3s;
+  position: relative;
+  width: 300px;
+}
+#contact .c-right .btn-w1:hover, #contact .c-right .btn-w2:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+#contact .c-right .btn-w1::after {
+  content: url(img/mail_FILL0_wght400_GRAD0_opsz48.png);
+  width: 30px;
+  height: 24px;
+  position: absolute;
+  top: 13px;
+  right: 20px;
+}
+#contact .c-right .btn-w2::after {
+  content: url(img/download_FILL0_wght400_GRAD0_opsz48.svg);
+  width: 30px;
+  height: 24px;
+  position: absolute;
+  top: 13px;
+  right: 20px;
+}
+
+/*-------------------------------------------
+Coop
+-------------------------------------------*/
+#coop {
+  background-color: #fff;
+}
+#coop .c-text {
+  text-align: center;
+  color: #AA9C69;
+  font-size: 1.563rem;
+  font-weight: bold;
+  padding: 30px;
+  margin-bottom: 34px;
+}
+#coop .co-ul {
+  display: flex;
+  justify-content: space-between;
+}
+#coop .co-ul li {
+  width: 31%;
+}
+#coop .white {
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  background-color: #8FC08F;
+  border-radius: 17px;
+  display: inline-block;
+  padding: 4px 71px;
+  margin-bottom: 17px;
+}
+#coop .co-li li {
+  width: 100%;
+  list-style-type: none;
+  position: relative;
+  padding-left: 10px;
+}
+#coop .co-li li p {
+  padding-left: 10px;
+}
+#coop .co-li li:before {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  content: "";
+  background: #8FC08F;
+}
+#coop .c-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #AA9C69;
+  padding-bottom: 20px;
+}
+#coop .c-bottom .c-gold {
+  font-weight: bold;
+  color: #AA9C69;
+}
+#coop .c-bottom img {
+  vertical-align: text-top;
+  width: 16px;
+  height: 16px;
+}
+
+/*-------------------------------------------
+Bottom
+-------------------------------------------*/
+#bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+}
+#bottom .b-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 110px;
+}
+#bottom .b-left {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+#bottom .b-left .company {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+#bottom .b-left .company img {
+  vertical-align: bottom;
+  line-height: 1px;
+}
+#bottom .b-left .company1 {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+#bottom .b-left .company2 {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+#bottom .info2 {
+  font-size: 0.813rem;
+}
+#bottom .b-right ul {
+  display: flex;
+  align-items: flex-start;
+}
+#bottom .b-right li {
+  display: flex;
+  gap: 10px;
+  margin-right: 50px;
+}
+#bottom .b-right li a {
+  display: contents;
+}
+#bottom .b-right li:last-of-type {
+  margin-right: 0;
+}
+#bottom .copy {
+  margin-top: 95px;
+  text-align: end;
+  font-size: 0.75rem;
+  padding-bottom: 28px;
+}/*# sourceMappingURL=style.css.map */
